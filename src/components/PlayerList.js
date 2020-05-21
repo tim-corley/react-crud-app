@@ -13,9 +13,15 @@ export const PlayerList = () => {
               className="flex items-center bg-gray-100 mb-10 shadow"
               key={player.id}
             >
+              <div className="text-left pl-4 py-2 m-2">
+                <div className="bg-gray-300 text-gray-800 font-semibold mr-3 py-2 px-4 rounded-full inline-flex items-center border-solid border-2 border-black">
+                  <p>{player.rank}</p>
+                </div>
+              </div>
               <div className="flex-auto text-left px-4 py-2 m-2">
-                <p className="text-gray-900 leading-none">{player.name}</p>
-                <p className="text-gray-600">{player.rank}</p>
+                <p className="text-gray-900 leading-none text-xl">
+                  {player.name}
+                </p>
                 <span className="inline-block text-sm font-semibold mt-1">
                   {player.country}
                 </span>
