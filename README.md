@@ -85,3 +85,6 @@ Tim Corley | [@tcor215](https://twitter.com/tcor215) | contact@tim-corley.com
 ## License
 
 Distributed under the MIT License.
+
+[issues-shield]: https://img.shields.io/github/issues/tim-corley/react-crud-app?color=red&style=for-the-badge
+[issues-url]: https://github.com/tim-corley/react-crud-app/issues
