@@ -28,9 +28,9 @@ export const EditPlayer = (route) => {
   const handleOnChange = (userKey, value) =>
     setSeletedUser({ ...selectedUser, [userKey]: value });
 
-  if (!selectedUser || !selectedUser.id) {
-    alert('IDs do not match.');
-  }
+  // if (!selectedUser || !selectedUser.id) {
+  //   alert('IDs do not match.');
+  // }
 
   return (
     <Fragment>
@@ -69,15 +69,15 @@ export const EditPlayer = (route) => {
           <div className="w-full  mb-5">
             <label
               className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-              htmlFor="ranking"
+              htmlFor="rank"
             >
               Ranking
             </label>
             <input
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:text-gray-600 focus:shadow-outline"
-              value={selectedUser.ranking}
-              onChange={(e) => handleOnChange('ranking', e.target.value)}
-              type="text"
+              value={selectedUser.rank}
+              onChange={(e) => handleOnChange('rank', e.target.value)}
+              type="number"
               placeholder="Enter ranking"
             />
           </div>
