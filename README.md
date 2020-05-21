@@ -15,7 +15,7 @@
     Built with the Context API & Hooks
     <br />
     <br />
-    <a href="https://reactjs.org/"><strong>Go To The Demo Site »</strong></a>
+    <a href="https://tim-corley.github.io/react-crud-app/"><strong>Go To The Demo Site »</strong></a>
     <br />
   </p>
 </p>
@@ -32,7 +32,7 @@
 
 ## About
 
-[![app-walkthrough](src/img/demo.gif)](https://reactjs.org/)
+[![app-walkthrough](src/img/demo.gif)](https://tim-corley.github.io/react-crud-app/)
 
 The goal of this project is to get familiar and comfortable with the Context API and React Hooks. These features enable builting a clean, modern front-end web application.
 
@@ -56,7 +56,7 @@ git clone https://github.com/tim-corley/react-crud-app.git
 yarn install
 ```
 
-3. Start browser-sync to launch site
+3. Start local server
 
 ```sh
 yarn start
